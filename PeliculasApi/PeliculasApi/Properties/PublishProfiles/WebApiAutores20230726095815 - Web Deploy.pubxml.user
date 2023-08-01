@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsMTAMf9EyEGzx3rLY4MRdgAAAAACAAAAAAAQZgAAAAEAACAAAAC9ZnIKXJwypW14a5XBI1Nq/Uc0rzABq42aLdrGcpEj+gAAAAAOgAAAAAIAACAAAAAPcVvsiSyg2r8Jqn/bP2OtjrdVm1FzM/QbVvwzNckDVoAAAADlbnPgm6tR5TVPkJW5iZrYvpwMXPTrPlr6UxbCaXc84YiYrpjyqJZKihMvcGXomWRRpTRcg+1KPSkCd1kIgzCu66gDBtMz/KEHqpczZoABrO5lekKuNbzAyWAoi2G/AY6FMrqBlWQBiL/eSidIismF5itZ2hWtm6zcX+ImEsqoTkAAAACpflcjr6ulRb1G7LH7f/AjNsyaqZybinawvbBNKC/0aZnI4fnpWViUOqHl534CKShlQrlie3uYHcvx5cISZOKK</EncryptedPassword>
+    <History>True|2023-07-28T22:39:47.3828367Z;True|2023-07-28T19:34:53.8321819-03:00;True|2023-07-28T19:20:55.1422408-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="PeliculasApi.ApplicationDBContext">
+      <Value>Data Source=tcp:peliculasapidbservermarcos.database.windows.net,1433%3bInitial Catalog=PeliculasApi_db%3bUser Id=mgiorgi32%40peliculasapidbservermarcos%3bPassword=Caco-0241</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
